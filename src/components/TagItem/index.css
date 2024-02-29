@@ -1,0 +1,21 @@
+.btn {
+  padding: 6px 13px 6px 13px;
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  border-radius: 19px;
+  font-size: 12px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.btn1 {
+  background-color: #f3aa4e;
+  color: #fff;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 15px;
+  }
+}

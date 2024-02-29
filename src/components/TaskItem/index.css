@@ -1,0 +1,39 @@
+.para {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding: 0px;
+}
+.para1 {
+  color: #323f4b;
+  background-color: #f3aa4e;
+  padding: 8px 16px 8px 16px;
+  border: none;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.li-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a171d;
+  padding: 2px 30px 2px 30px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .li-container {
+    height: 50px;
+    padding: 6px 20px 6px 20px;
+  }
+  .para1 {
+    padding: 6px 12px 6px 12px;
+    font-size: 12px;
+    border-radius: 9px;
+    font-weight: 700;
+  }
+  .para {
+    font-size: 14px;
+  }
+}

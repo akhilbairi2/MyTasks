@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+.main-card {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .main-card {
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a171d;
+  width: 100%;
+  padding: 25px;
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    width: 35%;
+    padding: 50px 40px 50px 20px;
+  }
+}
+.tag-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .tag-container {
+    width: 65%;
+    padding: 50px 40px 50px 20px;
+  }
+}
+.task-heading {
+  color: #f3aa4e;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+@media screen and (min-width: 768px) {
+  .task-heading {
+    font-size: 36px;
+  }
+}
+.tag-heading {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .tag-heading {
+    font-size: 28px;
+  }
+}
+.input {
+  width: 100%;
+  height: 35px;
+  outline: none;
+  color: #64748b;
+  padding: 8px 16px 8px 16px;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.select {
+  width: 100%;
+  height: 35px;
+  font-weight: 400;
+  outline: none;
+  color: #131213;
+  padding: 8px 16px 8px 16px;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.label {
+  align-self: flex-start;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 20px;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.add-btn {
+  background-color: #f3aa4e;
+  border: none;
+  padding: 9px 18px 9px 18px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 600;
+  color: #f8f8f8;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .add-btn {
+    font-size: 20px;
+  }
+}
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
+.no-tasks {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .no-tasks {
+    font-size: 26px;
+  }
+}
+.task-list-container {
+  padding-left: 0px;
+  overflow-y: auto;
+}
